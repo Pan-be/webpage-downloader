@@ -28,7 +28,7 @@ const sanitizeFilename = (url) => {
     return path.basename(pathname);
 };
 
-rl.question("Podaj URL do pobrania: ", (inputUrl) => {
+rl.question("Provide url: ", (inputUrl) => {
     rl.close();
     (async () => {
         const pageUrl = inputUrl.trim();
