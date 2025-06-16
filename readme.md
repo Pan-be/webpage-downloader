@@ -22,3 +22,46 @@ A simple Node.js tool that downloads a full webpage including HTML, CSS, JS, and
 
    ```bash
    npm install
+   ```
+
+## Usage 
+
+Run the script with:
+
+```bash
+node scrape.js
+```
+
+You will be prompted to enter the URL of the webpage you want to download:
+
+```bash
+Provide url:
+```
+Type or paste the URL and press Enter.
+
+The script will:
+
+    Launch a headless browser,
+
+    Fetch the page and wait for network idle,
+
+    Download all detected CSS, JS, and image resources into the assets/ folder,
+
+    Save the updated HTML as index.html in the current directory.
+
+## Project Structure
+
+```bash
+/assets         # Downloaded CSS, JS, and images
+index.html     # Downloaded and modified HTML page
+scrape.js      # Main script
+package.json   # Node.js dependencies and metadata
+.gitignore     # Files and folders ignored by Git
+README.md      # This file
+```
+
+## License
+MIT License
+
+## Author
+[Pan-Be](https://pan-be.com)
