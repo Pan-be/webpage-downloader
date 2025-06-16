@@ -1,0 +1,25 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# chromium
+.puppeteer/
+
+.DS_Store
+Thumbs.db
+
+# builds
+index.html
+assets/
+
+*.log
+
+.vscode/
+.idea/
+
+*.swp
+*.swo
+
+.env
